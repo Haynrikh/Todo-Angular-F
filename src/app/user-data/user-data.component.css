@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cogIcon {
+  width: 50px;
+  height: 50px;
+
+}
+
+.link {
+  border-radius: 50%;
+
+}
+
+.cogIcon:hover {
+  transform: rotate(360deg);
+  transition: ease-in-out 3s;
+}
+
+
+.userPanel {
+  border: 2px solid black;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10px;
+}
+
+.userPhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}

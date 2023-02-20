@@ -1,0 +1,35 @@
+table,
+th,
+td {
+  padding: 5px;
+  border: 1px solid black;
+
+}
+
+.tableHeader td {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.tableRow td {
+  text-align: center;
+}
+
+.editPart {
+  background-color: transparent;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+
+.addButton {
+  padding: 20px;
+}
+
+.delButton:hover {
+  background-color: #ff0000;
+}

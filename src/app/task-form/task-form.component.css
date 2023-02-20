@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  margin: 0;
+}
+
+.titleOfTask {
+  width: 250px;
+  height: 30px;
+}
+
+.descriptionOfTask {
+  width: 250px;
+  height: 120px;
+}
+
+.addImg {
+  width: max-content;
+}
+
+.checkmark {
+  width: 30px;
+  height: 30px;
+}
+
+.taskInput {
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 300px;
+  padding: 5px;
+}

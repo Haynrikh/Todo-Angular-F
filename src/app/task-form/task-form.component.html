@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="taskInput makeCentered">
+    <h1>Add your task here</h1>
+    <input type="text" #taskContent placeholder="Please add the title of your task" class="titleOfTask">
+    <textarea name="description" #taskDescription placeholder="Please add the description of your task" class="descriptionOfTask"></textarea>
+    <div class="makeCentered">
+      <label for="taskCheck">Is active: </label>
+      <input type="checkbox" name="taskCheck" id="myCheckbox" class="checkmark">
+    </div>
+    <button class="addImg glow">Add Image</button>
+  </div>
+  <div class="submitForm makeCentered">
+    <a href="dashboard">
+      <button class="butt glow" (click)="submitTask(taskContent.value)">Submit</button>
+    </a>
+  </div>
+</body>
+</html>

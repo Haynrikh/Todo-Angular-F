@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  align-items: center;
+}
+
+.editTask {
+  flex-direction: column;
+  border: 2px black solid;
+  width: fit-content;
+}
+
+.editTask,
+.deleteEditButtons,
+h1,
+input,
+textarea,
+div {
+  padding: 10px;
+}
+
+.deleteEditButtons {
+  width: 250px;
+  justify-content: space-evenly;
+}
+
+.deleteImg:hover {
+  background-color: #ff0000;
+}
